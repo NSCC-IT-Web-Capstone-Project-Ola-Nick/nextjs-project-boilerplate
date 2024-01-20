@@ -13,6 +13,7 @@ export const getStaticProps: GetStaticProps = async () => {
       id: "desc",
     },
   });
+
   return {
     props: { feed },
     revalidate: 10,
@@ -34,6 +35,7 @@ export default function Home(
           <h1>{item.dataname}</h1>
           <p>{item.datacontent}</p>
         </div>
+        
       ))}
     </main>
   );
