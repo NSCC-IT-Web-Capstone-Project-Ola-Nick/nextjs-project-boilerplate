@@ -1,14 +1,20 @@
-import { PrismaClient } from '@prisma/client';
-
-let prisma: PrismaClient;
+// it is designed to be a singleton, so we can safely use and re-use it throughout our application.
+import { PrismaClient } from '@prisma/client'
 
 if (process.env.NODE_ENV === 'production') {
-  prisma = new PrismaClient();
+  var prisma = new PrismaClient()
+  
 } else {
+  // @ts-ignore
   if (!global.prisma) {
-    global.prisma = new PrismaClient();
+    // @ts-ignore
+    global.prisma = new PrismaClient()
   }
-  prisma = global.prisma;
+  // @ts-ignore
+  var prisma = global.prisma
+
 }
 
-export default prisma;
+
+export default prisma
+
