@@ -140,7 +140,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/nicolas/school-projects/4th-semester/capstone/repos/next-boilerplate-2/prisma/@prisma/client",
+      "value": "/home/nicolas/school-projects/4th-semester/capstone/repos/nextjs-capstone-project-boilerplate/prisma/@prisma/client",
       "fromEnvVar": null
     },
     "config": {
@@ -167,6 +167,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
@@ -176,7 +177,8 @@ const config = {
     }
   },
   "inlineSchema": "Ly8gVGhpcyBpcyB5b3VyIFByaXNtYSBzY2hlbWEgZmlsZSwKLy8gbGVhcm4gbW9yZSBhYm91dCBpdCBpbiB0aGUgZG9jczogaHR0cHM6Ly9wcmlzLmx5L2QvcHJpc21hLXNjaGVtYQoKZ2VuZXJhdG9yIGNsaWVudCB7CiAgcHJvdmlkZXIgPSAicHJpc21hLWNsaWVudC1qcyIKICBvdXRwdXQgICA9ICJAcHJpc21hL2NsaWVudCIKfQoKZGF0YXNvdXJjZSBkYiB7CiAgcHJvdmlkZXIgPSAicG9zdGdyZXNxbCIKICB1cmwgICAgICA9IGVudigiREFUQUJBU0VfVVJMIikKfQoKCm1vZGVsIFVzZXIgewogIGlkICAgICAgICAgICAgSW50ICAgICAgIEBkZWZhdWx0KGF1dG9pbmNyZW1lbnQoKSkgQGlkCiAgbmFtZSAgICAgICAgICBTdHJpbmc/CiAgZW1haWwgICAgICAgICBTdHJpbmc/ICAgQHVuaXF1ZQogIGNyZWF0ZWRBdCAgICAgRGF0ZVRpbWUgIEBkZWZhdWx0KG5vdygpKSBAbWFwKG5hbWU6ICJjcmVhdGVkX2F0IikKICB1cGRhdGVkQXQgICAgIERhdGVUaW1lICBAdXBkYXRlZEF0IEBtYXAobmFtZTogInVwZGF0ZWRfYXQiKQogIHBhc3N3b3JkICAgICAgU3RyaW5nPwogIFRva2VucyAgICAgICAgVG9rZW5bXQogIEBAbWFwKG5hbWU6ICJ1c2VycyIpCgp9Ci8vIGF1dG8gaW5jcmVtZW50IGlkCm1vZGVsIFNhbXBsZURhdGEgewogIGlkICAgICAgICAgICAgSW50ICAgICAgIEBkZWZhdWx0KGF1dG9pbmNyZW1lbnQoKSkgQGlkIEB1bmlxdWUgCiAgZGF0YW5hbWUgICAgICBTdHJpbmc/ICAgICAgQGRiLlZhckNoYXIoNTApCiAgZGF0YWNvbnRlbnQgICBTdHJpbmc/CiAgQEBtYXAobmFtZTogInNhbXBsZURhdGEiKQp9Cgptb2RlbCBUb2tlbiB7CiAgaWQgICAgICAgICAgICBJbnQgICAgICAgQGlkIEBkZWZhdWx0KGF1dG9pbmNyZW1lbnQoKSkKICB0b2tlbiAgICAgICAgIFN0cmluZyAgICAgICAKICB1c2VyICAgICAgICAgIFVzZXIgICAgICAgIEByZWxhdGlvbihmaWVsZHM6IFt1c2VySWRdLCByZWZlcmVuY2VzOiBbaWRdKQogIHVzZXJJZCAgICAgICAgSW50CiAgQEBtYXAobmFtZTogInRva2VucyIpCn0=",
-  "inlineSchemaHash": "f18a10438610d544f4b6e3fdb46d150a72900abb9abfba13041400d2dca65b28"
+  "inlineSchemaHash": "f18a10438610d544f4b6e3fdb46d150a72900abb9abfba13041400d2dca65b28",
+  "noEngine": false
 }
 config.dirname = '/'
 
