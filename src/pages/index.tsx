@@ -13,6 +13,7 @@ export const getStaticProps: GetStaticProps = async () => {
       id: "desc",
     },
   });
+  
 
   return {
     props: { feed },
